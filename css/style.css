@@ -1,0 +1,46 @@
+body {
+  background-color: #DAF5FF;
+}
+hr{
+  border-color: #0B2447;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 3%;
+
+}
+img{
+  height:180px
+}
+h1,h2,h3{
+  font-family: 'garamond';
+  color: #576CBC
+}
+/* THIS IS FOR CONTACTS.HTML AND USING PSEUDO CLASSES */
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:autofill {
+    border: 3px solid darkorange;
+}
+
+input:-webkit-autofill {
+    border: 3px solid darkorange;
+}
+
+.buttons {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
